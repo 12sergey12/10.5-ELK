@@ -41,11 +41,11 @@ Filebeat следует сконфигурировать для отправки
 
 - скриншот `docker ps` через 5 минут после старта всех контейнеров (их должно быть 5);
 
-![monitoring]()
+![monitoring](https://github.com/12sergey12/10.5-ELK/blob/main/images/10.5-1(docker%20ps%20-a).png)
 
 - скриншот интерфейса kibana;
 
-![monitoring]()
+![monitoring](https://github.com/12sergey12/10.5-ELK/blob/main/images/10.5-logstash.png)
 
 - docker-compose манифест (если вы не использовали директорию help);
 
@@ -62,9 +62,9 @@ Filebeat следует сконфигурировать для отправки
 В манифесте директории help также приведенно dummy-приложение, которое генерирует рандомные события в stdout-контейнера.
 Эти логи должны порождать индекс logstash-* в elasticsearch. Если этого индекса нет — воспользуйтесь советами и источниками из раздела «Дополнительные ссылки» этого задания.
  
-![monitoring]()
+![monitoring](https://github.com/12sergey12/10.5-ELK/blob/main/images/10.5-logstash.png)
 
-![monitoring]()
+![monitoring](https://github.com/12sergey12/10.5-ELK/blob/main/images/10.5-filebeat.png)
 
 ---
 
